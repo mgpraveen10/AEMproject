@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-07-18T18:12:17.327+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-07-18T18:06:19.507+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[we-retail:activity/biking,we-retail:activity/hiking]"
+        cq:template="/conf/AemProject/settings/wcm/templates/content-page"
+        jcr:description="Find out the tags"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HOME"
+        jcr:uuid="6f7c9a48-d987-4c8e-a363-9a62c3f95f4a"
+        sling:resourceType="AemProject/components/structure/page"
+        id="bean">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <linkimage
+                    jcr:created="{Date}2022-06-27T15:00:37.850+05:30"
+                    jcr:createdBy="admin"
+                    jcr:description="You found us! That means you're after coffee that pours and tastes like your favorite cafe, from the greatest third-wave roasters in the country. All at your fingertips."
+                    jcr:lastModified="{Date}2022-06-28T13:16:34.583+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Fresh beans from local roasters, delivered to your door."
+                    sling:resourceType="AemProject/components/content/linkimage"
+                    fileReference="/content/dam/AemProject/beanz-a.webp"
+                    linkURL="https://www.beanz.com/us/en/coffee.html"/>
+                <title
+                    jcr:created="{Date}2022-06-24T23:57:14.363+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T11:56:58.969+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                                                How It Works"
+                    sling:resourceType="AemProject/components/content/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="3"
+                            width="9"/>
+                    </cq:responsive>
+                </title>
+                <logotitledes_515202678
+                    jcr:created="{Date}2022-06-21T23:35:28.026+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-17T11:58:08.155+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/logotitledes">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                    <jcr:multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:description="When it comes to coffee, fresh isn't just best, it’s essential. That's why we've made it our mission to pack and dispatch every order within hours of roasting before delivering it free to your door, ready to roll."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://breville.scene7.com/is/image/brevilleprod/Beanz_Icon_Keep_It_Fresh?ts=1655310318975&amp;dpr=off"
+                            title="Keep it fresh"/>
+                        <item1
+                            jcr:description="No two coffee drinkers are the same. Fact. Take our quiz to find the right bean for the job - just tell us how you like to make it, taste it and drink it."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://breville.scene7.com/is/image/brevilleprod/Beanz_Icon_Find_Your_Match?ts=1655310318639&amp;dpr=off"
+                            title="Find your match"/>
+                        <item2
+                            jcr:description="Feel good about your daily grind, knowing it’s come from the most passionate roasters in America. We’re always looking to bag new talent and find undiscovered gems."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://breville.scene7.com/is/image/brevilleprod/Beanz_Icon_Homegrown_Roasters?ts=1655310318819&amp;dpr=off"
+                            title="Homegrown roasters"/>
+                        <item3
+                            jcr:description="Keep the bean-afits coming when you subscribe, and never pay a dime for shipping or worry about running out of coffee again."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://breville.scene7.com/is/image/brevilleprod/Beanz_Icon_Subscribe_and_Save?ts=1655310318700&amp;dpr=off"
+                            title="Subscribe and save"/>
+                    </jcr:multifield>
+                </logotitledes_515202678>
+                <starbean
+                    jcr:created="{Date}2022-06-29T23:42:02.711+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-29T23:48:34.291+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/starbean"
+                    description="Brewing by hand on a V60 or Kalita? Or are you more of a passionate drip drinker? These coffees are roasted to take things to a whole new level."
+                    description1="Straight up or mellowed out with milk or creamer in a latte or cappuccino, our range of espresso beans should be just what you're after."
+                    fileReference="/content/dam/AemProject/filter-coffee.png"
+                    fileReference1="/content/dam/AemProject/espresso-coffee.png"
+                    subtitle="Espresso"
+                    subtitle1=" Drip &amp; Pour Over"
+                    title="Find your perfect beans"/>
+                <bean
+                    jcr:created="{Date}2022-06-30T11:54:14.507+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T11:56:00.930+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/bean"
+                    description="Brewing by hand on a V60 or Kalita? Or are you more of a passionate drip drinker? These coffees are roasted to take things to a whole new level."
+                    description1="Straight up or mellowed out with milk or creamer in a latte or cappuccino, our range of espresso beans should be just what you're after."
+                    fileReference="/content/dam/AemProject/filter-coffee.png"
+                    fileReference1="/content/dam/AemProject/espresso-coffee.png"
+                    subtitle="Espresso"
+                    subtitle1="Drip &amp; Pour Over"
+                    title="Find your perfect beans"/>
+                <title_1580608146
+                    jcr:created="{Date}2022-06-29T22:25:34.693+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T11:56:45.789+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                                                                           Meet our roasters"
+                    sling:resourceType="AemProject/components/content/title"
+                    type="h2"/>
+                <cardcomponent
+                    jcr:created="{Date}2022-06-22T15:27:18.761+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-17T19:21:43.440+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/cardcomponent">
+                    <jcr:multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/passenger.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_Passenger_logo_200x200.jpg"
+                            subtitle="Lancaster"
+                            title="passenger"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/zoka.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_Zoka_logo_200x200.jpg"
+                            subtitle="seattle"
+                            title="zoka"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/temple.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_Temple_logo_200x200.jpg"
+                            subtitle="Sacramento"
+                            title="Temple"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/verve.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_Verve_logo_200x200.jpg"
+                            subtitle="Santa Cruz"
+                            title="Verve"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/thou-mayest.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_ThouMayest_logo_200x200.jpg"
+                            subtitle="Kansas City"
+                            title="Thou Mayest"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/pts.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_PTs_logo_200x200.jpg"
+                            subtitle="Topeka"
+                            title="Pt's"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/olympia.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_Olympia_logo_200x200_new2.jpg"
+                            subtitle="Olypia"
+                            title="Olympia"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://www.beanz.com/content/beanz/us/en/coffee/roasters/olympia.html"
+                            logolink="https://www.beanz.com/content/dam/marketplace/us/roasting-brands/roasters/BeanzUS_DeeperRoots_logo_200x200.jpg"
+                            subtitle="cincinnati"
+                            title="Deeper Root's"/>
+                    </jcr:multifield>
+                </cardcomponent>
+                <titd
+                    jcr:created="{Date}2022-06-25T00:13:55.794+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-18T18:06:13.607+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/titd"
+                    heading="Coffee Lowdown"
+                    linkURL="https://breville.scene7.com/is/image/brevilleprod/coffee-101?ts=1654878496095&amp;dpr=off">
+                    <multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            testdescription="When it comes to roasting, each of these three levels embody their own unique mouthfeel and experience: go lighter for bright acidity and delicate flavors, medium for balanced sweetness and acidity, or darker for a richer, sharper cup."
+                            title="Three levels of roasting"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            testdescription="A blend is a mix of beans from various origins expertly combined for maximum balance and consistency. However! Single origin coffees come from a single place, often in limited supply, and are loved for their distinctive flavors and taste of place. Good news is, we offer both."
+                            title="Blends vs Single Origin"/>
+                    </multifield>
+                </titd>
+                <startopnav
+                    jcr:created="{Date}2022-06-30T11:58:41.760+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T11:58:49.245+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/startopnav"
+                    fileReference="/content/dam/AemProject/beanz-by-breville-logo-white.svg"/>
+                <logotitledes_2
+                    jcr:created="{Date}2022-06-29T10:49:21.728+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-18T18:12:17.319+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/logotitledes_2">
+                    <jcr:multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:description="Keep the bean-afits coming when you subscribe, and never pay a dime for shipping or worry about running out of coffee again."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/AemProject/Beanz_Icon_Subscribe_and_Save.webp"
+                            title="sub"/>
+                        <item1
+                            jcr:description="Keep the bean-afits coming when you subscribe, and never pay a dime for shipping or worry about running out of coffee again."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/AemProject/Beanz_Icon_Keep_It_Fresh.webp"
+                            title="hello"/>
+                        <item2
+                            jcr:description="Keep the bean-afits coming when you subscribe, and never pay a dime for shipping or worry about running out of coffee again."
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="https://breville.scene7.com/is/image/brevilleprod/Beanz_Icon_Keep_It_Fresh?ts=1655310318975&amp;dpr=off"
+                            title="roasters"/>
+                    </jcr:multifield>
+                </logotitledes_2>
+                <headernav_2
+                    jcr:created="{Date}2022-06-30T13:09:16.474+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-18T14:52:34.668+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="AemProject/components/content/headernav_2"
+                    linkforlogo="https://www.beanz.com/us/en.html"
+                    logo="https://www.beanz.com/content/experience-fragments/beanz/us/en/site/header/master/_jcr_content/root/image.coreimg.svg/1649175807319/beanz-white.svg">
+                    <multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            title="Our Company"
+                            titlelink="https://www.beanz.com/us/en.html">
+                            <jcr:multifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    subtitle="Infrastructure"
+                                    subtitlelink="https://www.beanz.com/us/en.html"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    subtitle="Awards"
+                                    subtitlelink="https://www.beanz.com/us/en.html"/>
+                            </jcr:multifield>
+                        </item0>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            title="Contact Us"
+                            titlelink="https://www.beanz.com/us/en.html">
+                            <jcr:multifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    subtitle="HeadBranch"
+                                    subtitlelink="https://www.beanz.com/us/en.html"/>
+                            </jcr:multifield>
+                        </item1>
+                    </multifield>
+                </headernav_2>
+                <responsivegrid
+                    jcr:created="{Date}2022-07-04T12:17:14.851+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-04T12:17:14.851+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

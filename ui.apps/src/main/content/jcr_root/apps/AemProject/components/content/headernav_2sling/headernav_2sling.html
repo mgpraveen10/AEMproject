@@ -1,0 +1,23 @@
+<sly data-sly-use.tap="${'AemProject.core.models.MainHeaderNav'}"></sly>
+
+<h1 data-sly-test="${!tap.logo}"> Add card component </h1>
+
+
+
+    <a href="${tap.link}" target="blank">
+<img src="${tap.logo}" style="width:150px; " >
+</a>
+
+    
+<ul data-sly-list.angle="${tap.multi}" >
+<a href="${angle.titlelink}" target="blank">
+<h1 >${angle.title }</h1>
+</a>
+    <ul data-sly-list.an="${angle.m}" data-sly-unwrap>
+        <a href="${an.subtitlelink}" target="blank">
+<h1 >${an.subtitle }</h1>
+
+        </ul>
+
+    </ul>
+

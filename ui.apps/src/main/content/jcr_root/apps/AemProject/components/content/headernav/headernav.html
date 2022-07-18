@@ -1,0 +1,22 @@
+
+<h1 data-sly-test="${!properties.logo}">Add values </h1>
+
+
+<div class="nav-main">
+
+<img class="nav-logo"  src="${properties.logo}">
+
+
+<div data-sly-list.can="${resource.getChildren}"> 
+
+    <ul  data-sly-list.track="${can.getChildren}">
+        <div style="width:100px;float:left;margin-right:30px;margin-top: -25px;" > 
+              <a class= "nav-arrange" href="${track.titlelink}" target="blank">
+			<h4> ${track.title}</h4> </a>
+
+             </div>
+            </ul>
+
+</div>
+</div>
+

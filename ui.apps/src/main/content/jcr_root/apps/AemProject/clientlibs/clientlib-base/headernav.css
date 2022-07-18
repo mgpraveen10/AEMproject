@@ -1,0 +1,22 @@
+.nav-main
+{color:#ccc;
+    padding:10px;
+    height: 40px;
+ background-color:#2b2b2d;
+    width:100%;
+}
+
+.nav-logo
+{
+  margin-right:30px;
+    width: 100px;
+    float:left;
+}
+
+.nav-arrange
+{text-decoration:none;
+
+
+    color:white;
+
+}

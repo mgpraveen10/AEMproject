@@ -1,0 +1,35 @@
+.candle
+{
+    text-align:center;
+     width:100%;
+
+}
+
+
+.i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.multi-des
+{
+    width:45%;
+    float:left;
+    height:78px;
+    text-align:left;
+    margin-left:3%;
+
+
+}
+.h 
+{ 
+    width:100%;
+   height:auto;
+    text-align:center;
+    overflow:hidden;
+   padding-bottom:150px;
+
+
+}

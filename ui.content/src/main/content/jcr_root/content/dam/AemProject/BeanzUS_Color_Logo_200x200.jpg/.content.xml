@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="efc3694c-a6aa-45fb-964e-a73a5c9c2bfb">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-06-27T13:35:55.725+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-06-27T13:35:55.100+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}2.777777671813965"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}2.777777671813965"
+            dam:Progressive="yes"
+            dam:sha1="d1da58bc19d5ec5287dd8451d86ea7a24734bd0b"
+            dam:size="{Long}26467"
+            dc:format="image/jpeg"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}200"
+            exif:PixelYDimension="{Long}200"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[xmp.did:15b02704-60f2-1a4c-85d6-6e286a39618b]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}200"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2021-09-24T10:24:15.000+10:00"
+            xmp:CreatorTool="Adobe Photoshop 22.4 (Windows)"
+            xmp:MetadataDate="{Date}2021-09-24T10:24:15.000+10:00"
+            xmp:ModifyDate="{Date}2021-09-24T10:24:15.000+10:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:65b01728-2df0-e447-8ca6-93e6cd32bfa9"
+            xmpMM:InstanceID="xmp.iid:0a576831-4fc3-034b-b516-226b13e0f6c7"
+            xmpMM:OriginalDocumentID="xmp.did:0bb96210-06c1-2f48-abb7-3d8bb4213643">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:0bb96210-06c1-2f48-abb7-3d8bb4213643"
+                    stEvt:softwareAgent="Adobe Photoshop 22.4 (Windows)"
+                    stEvt:when="{Date}2021-09-24T10:24:15.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:0a576831-4fc3-034b-b516-226b13e0f6c7"
+                    stEvt:softwareAgent="Adobe Photoshop 22.4 (Windows)"
+                    stEvt:when="{Date}2021-09-24T10:24:15.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

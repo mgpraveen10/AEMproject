@@ -1,0 +1,19 @@
+.cartwo
+{ width:20%;
+  text-align:center;
+    align-items:center;
+    margin:10px auto;
+   display: table; 
+    min-width:20%;
+    }
+.cabtwo
+{
+
+    display:flex;
+     position:relative; 
+   width:100%;
+    height:auto;
+    overflow-y:scroll;
+    background-color:yellow;
+
+}
