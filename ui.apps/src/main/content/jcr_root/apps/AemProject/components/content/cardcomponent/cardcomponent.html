@@ -1,0 +1,14 @@
+<sly data-sly-use.hp="${'AemProject.core.models.Cardcomponent'}"></sly>
+
+<h1 data-sly-test="${!hp.multi}"> Add card component </h1>
+<div class="con">
+<ul data-sly-list="${hp.multi}">
+<a href="${item.link}" target="blank">
+<div class="card">
+
+<img src="${item.logo}" width="150px" height="150px">
+<h1 >${item.title }</h1>
+<h2 >${item.subtitle }</h2>
+</div>  </a>
+</ul>
+</div>

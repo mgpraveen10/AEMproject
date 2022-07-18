@@ -1,0 +1,22 @@
+<h1 data-sly-test="${!properties.heading}">Add multivalues </h1>
+
+
+<div class="h">
+<h1 class="i">${properties.heading} </h1>
+<img  width="50%" src="${properties.linkURL}">
+
+
+<div class="candle" data-sly-list.can="${resource.getChildren}"> 
+
+
+
+
+        <ul data-sly-list.track="${can.getChildren}">
+            <div class="multi-des"> 
+              <h1> ${track.title}</h1>
+            <p> ${track.testdescription}</p>
+             </div>
+            </ul>
+</div>
+</div>
+

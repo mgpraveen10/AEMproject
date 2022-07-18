@@ -1,0 +1,12 @@
+<sly data-sly-use.a="${'AemProject.core.models.LogotdMulti'}"></sly>
+
+<h1 data-sly-test="${!a.multi}"> Add logo descriprition here </h1>
+<div class="cabtwo">
+<div  data-sly-list="${a.multi}" data-sly-unwrap>
+<div class="cartwo" >
+      <img  src="${item.link}" width="150px" height="150px">
+          <h1 >${item.title }</h1>
+            <p >${item.description }</p>
+</div>
+</div>
+</div>
